@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/view11"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_blue_light">
+    </View>
+    <View
+        android:id="@+id/view12"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_toStartOf="@+id/view13"
+        android:layout_toLeftOf="@+id/view13"
+        android:layout_toEndOf="@+id/view11"
+        android:layout_toRightOf="@+id/view11"
+        android:background="@android:color/holo_blue_bright"
+     ></View>
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_dark"></View>
+
+
+    <View
+        android:id="@+id/view21"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/view12"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_orange_light"></View>
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/view13"
+        android:layout_toStartOf="@+id/view21"
+        android:layout_toLeftOf="@+id/view21"
+        android:layout_toEndOf="@+id/view23"
+        android:layout_toRightOf="@+id/view23"
+        android:background="@android:color/holo_red_dark"></View>
+
+    <View
+        android:id="@+id/view23"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/view13"
+        android:background="@android:color/holo_red_light">
+    </View>
+</RelativeLayout>

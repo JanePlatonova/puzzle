@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" >
+        <View
+            android:id="@+id/view11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light">
+        </View>
+        <View
+            android:id="@+id/view12"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_bright">
+        </View>
+        <View
+            android:id="@+id/view13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark">
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:layout_width="200dp"
+        android:layout_marginRight="110dp"
+        android:layout_height="match_parent" >
+        <View
+            android:id="@+id/view21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light">
+        </View>
+        <View
+            android:id="@+id/view22"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark">
+        </View>
+        <View
+            android:id="@+id/view23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light">
+        </View>
+    </LinearLayout>
+</FrameLayout>
